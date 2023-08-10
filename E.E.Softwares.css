@@ -1,0 +1,44 @@
+eader {
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(55, 207, 237) 35%, rgba(0, 52, 150) 100%);
+}
+#logo{
+    border-radius: 20px;
+}
+.titulo-principal{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-30%, -15%);
+    font-size: 35px;
+    font-family:'WrathStyles';
+    color: rgb(64, 235, 218);
+
+}
+
+@font-face {
+    font-family:'WrathStyles';
+    src: url(WrathStyles.ttf);
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    transform: translate(10%, 50%);
+    font-size: 35px;
+    font-family: lastica;
+    color: aqua;
+    text-align: center;
+    /*A propriedade text-shadow acrescentou sombras ao texto.
+    Ela aceita uma lista de sombras separadas por vírgula que serão
+    aplicados ao texto  e ao text-decoration do elemento.*/
+    color:  black;
+    text-shadow: 
+                -1px -1px 0px #8842e4,
+                -1px 4px 0px #4290e4,
+                1px -1px 0px #2edff2,
+                1px 0px 0px #FFF;
+    /*font-family: 'Gagalin", sem serifa;*/
+    /*font-family:Barlow;*/
+}
